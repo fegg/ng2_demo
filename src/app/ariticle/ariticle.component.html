@@ -1,0 +1,9 @@
+<input [(ngModel)]="searchTitle" (keyup.enter)="handleSearch()">
+<button (click)="handleSearch()">搜索</button>
+
+<ul>
+  <li [ngClass]="{'hover': hoverTitles[item.id]}"
+    *ngFor="let item of articles" (click)="handleClick(item.id)">
+    {{item.id}}-{{item.title}}-{{item.content}}
+  </li>
+</ul>

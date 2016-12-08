@@ -1,0 +1,22 @@
+.tab-views {
+    height: 300px;
+    overflow: auto;
+}
+
+.tab-view {
+    height: 200px;
+    background: #ddd;
+}
+
+.tabs {
+    position: relative;
+}
+
+.tab {
+    display: inline-block;
+    border-bottom: 3px #ddd solid;
+}
+
+.tab.active {
+    border-bottom-color: #4294FE;
+}
