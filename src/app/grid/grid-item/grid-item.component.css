@@ -1,0 +1,7 @@
+:host {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-left: 0px;
+  border-bottom: 0px;
+}

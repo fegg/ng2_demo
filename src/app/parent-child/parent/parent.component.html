@@ -1,0 +1,6 @@
+<input [(ngModel)]="childName" placeholder="Name">
+<input [(ngModel)]="childNickName" placeholder="NickName">
+<app-child #child [aliasName]="childName" [filterName]="Baby" (cry)="babyCry($event)"></app-child>
+<p>baby wowo? {{childStatus ? '正在浑...' : '睡着啦～'}}</p>
+
+<button (click)="child.nickName = childNickName">点我撒</button>
