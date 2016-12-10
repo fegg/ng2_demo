@@ -27,8 +27,6 @@ export class ParentComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    console.log(this.cc);
-  
     let timer = null;
     timer = setTimeout(() => {
       clearTimeout(timer);

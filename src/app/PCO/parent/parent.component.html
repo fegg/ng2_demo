@@ -1,0 +1,4 @@
+<input [(ngModel)]="babyName" type="text">
+
+<app-child #child [childName]="babyName"></app-child>
+<app-otherChild [helloBaby]="child.childName"></app-otherChild>

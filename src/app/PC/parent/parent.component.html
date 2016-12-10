@@ -1,0 +1,4 @@
+<h3>请输入 Baby 的名字：</h3>
+<input [(ngModel)]="baby" type="text">
+
+<app-child babyName="hello" [inputBabyName]="baby" aliasBabyName="我是别名"></app-child>

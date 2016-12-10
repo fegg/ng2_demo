@@ -8,9 +8,16 @@ import { AriticleComponent } from './ariticle/ariticle.component';
 import { TabComponent } from './tab/tab.component';
 import { ScrollDirective } from './tab/scroll.directive';
 import { GridComponent, GridRowComponent, GridItemComponent } from './grid';
-import { ParentComponent } from './parent-child/parent/parent.component';
-import { ChildComponent } from './parent-child/child/child.component';
+// import { ParentComponent } from './parent-child/parent/parent.component';
+// import { ChildComponent } from './parent-child/child/child.component';
 import { OtherComponent } from './parent-child/other/other.component';
+// import { ParentComponent } from './PC/parent/parent.component';
+// import { ChildComponent } from './PC/child/child.component';
+// import { ParentComponent } from './CP/parent/parent.component';
+// import { ChildComponent } from './CP/child/child.component';
+import { ParentComponent } from './PCO/parent/parent.component';
+import { ChildComponent } from './PCO/child/child.component';
+import { OtherChildComponent } from './PCO/otherChild/otherChild.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +28,16 @@ import { OtherComponent } from './parent-child/other/other.component';
     GridComponent,
     GridRowComponent,
     GridItemComponent,
+    // ParentComponent,
+    // ChildComponent,
+    OtherComponent,
+    // ParentComponent,
+    // ChildComponent,
+    // ParentComponent,
+    // ChildComponent,
     ParentComponent,
     ChildComponent,
-    OtherComponent
+    OtherChildComponent
 ],
   imports: [
     BrowserModule,
