@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ParentComponent implements OnInit {
 
   babyName: string = '小撸一号';
+  items: Array<number> = [1, 2, 3];
 
   constructor() { }
 

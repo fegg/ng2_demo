@@ -1,0 +1,18 @@
+<div class="main">
+
+  <h3>人员如下：</h3>
+  <p class="user" *ngFor="let user of userList">{{user.name}}</p>
+
+  <ul>
+    <li>
+      <a routerLink="adminUser">管理员</a>
+      <a routerLink="clientUser">普通人员</a>
+    </li>
+  </ul>
+
+  <button (click)="goDetail($event)">去角色</button>
+  
+
+  <router-outlet></router-outlet>
+
+</div>

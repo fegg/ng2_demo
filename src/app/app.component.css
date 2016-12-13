@@ -1,0 +1,46 @@
+.bd {
+    position: relative;
+    height: 100%;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100%;
+    background: #3e3c61;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-item {
+    line-height: 40px;
+}
+
+.sidebar-link {
+    display: block;
+    height: 100%;
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+    background: #363557;
+}
+
+.content {
+    margin-left: 240px;
+    height: 100%;
+    background: #ddddf7;
+}
+
+.content .title {
+    font-size: 16px;
+    color: #ccc7f0;
+    line-height: 40px;
+    background: #5e5c8e;
+    padding-left: 20px;
+}
