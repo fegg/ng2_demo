@@ -28,6 +28,7 @@ import { AdminUserComponent } from './admin/adminUser/adminUser.component';
 import { ClientUserComponent } from './admin/clientUser/clientUser.component';
 
 import { AdminRoutesModule } from './admin/admin-routes.module';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { AdminRoutesModule } from './admin/admin-routes.module';
     ModuleListComponent,
     DashboardComponent,
     AdminUserComponent,
-    ClientUserComponent
+    ClientUserComponent,
+    ListComponent
 ],
   imports: [
     BrowserModule,
