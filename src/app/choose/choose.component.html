@@ -1,0 +1,21 @@
+<div>
+
+  <div class="list">
+    <div class="clearfix" *ngFor="let item of data; let i = index">
+        <template [ngIf]="item && item.length > 0">
+          <span class="col col-order">{{i + 1}}</span>
+          <span *ngFor="let el of item" (click)="choose($event, i, el)" class="col">{{el}}</span> 
+        </template>
+    </div>
+  </div>
+
+  <div class="list-actived">
+    <div class="clearfix" *ngFor="let item of activedData; let i = index">
+      <template [ngIf]="item && item.length > 0">
+        <span class="col">{{i + 1}}</span>
+        <span *ngFor="let el of item" (click)="cancel($event, i, el)" class="col">{{el}}</span> 
+      </template>
+    </div>
+  </div>
+
+</div>

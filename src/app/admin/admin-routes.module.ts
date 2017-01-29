@@ -7,8 +7,6 @@ import { RoleListComponent } from '../admin/roleList/roleList.component';
 import { ModuleListComponent } from '../admin/moduleList/moduleList.component';
 import { AdminUserComponent } from '../admin/adminUser/adminUser.component';
 import { ClientUserComponent } from '../admin/clientUser/clientUser.component';
-import { ImageLazy.directive.tsDirective } from './Users/lulin/Desktop/ng2_demo/src/app/list/imageLazy.directive.ts.directive';
-import { ImageLazyDirective } from './Users/lulin/Desktop/ng2_demo/src/app/list/imageLazy.directive';
 
 const routes: Routes = [{
     path: 'dashboard',
@@ -22,9 +20,7 @@ const routes: Routes = [{
     }, {
         path: 'clientUser',
         component: ClientUserComponent
-    },
-    ImageLazy.directive.tsDirective,
-    ImageLazyDirective
+    }
 ]
 }, {
     path: 'roleList',
@@ -49,5 +45,5 @@ const routes: Routes = [{
     ]
 })
 export class AdminRoutesModule {
-    
+
 }

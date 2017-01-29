@@ -1,0 +1,23 @@
+.row {
+    height: 30px;
+}
+
+.col {
+    cursor: pointer;
+    float: left;
+    padding: 6px 8px;
+    background: #fff;
+    border: 1px #ccc solid;
+    user-select: none;
+}
+
+.col-order {
+    background: blue;
+    color: #fff;
+}
+
+.clearfix::after {
+    display: table;
+    content: '\20';
+    clear: both;
+}

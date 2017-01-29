@@ -29,6 +29,7 @@ import { ClientUserComponent } from './admin/clientUser/clientUser.component';
 
 import { AdminRoutesModule } from './admin/admin-routes.module';
 import { ListComponent } from './list/list.component';
+import { ChooseComponent } from './choose/choose.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { ListComponent } from './list/list.component';
     DashboardComponent,
     AdminUserComponent,
     ClientUserComponent,
-    ListComponent
+    ListComponent,
+    ChooseComponent
 ],
   imports: [
     BrowserModule,
