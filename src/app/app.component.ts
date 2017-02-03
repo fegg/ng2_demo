@@ -1,12 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import sideBarConfig from './config/sidebar';
-
-interface ISideBarConfig {
-    routeLink: string,
-    text: string
-}
+import sideBarConfig from './config/SideBar';
+import { ISideBar } from './config/ISideBar'
 
 @Component({
   selector: 'app-root',
@@ -15,7 +11,7 @@ interface ISideBarConfig {
 })
 export class AppComponent implements OnInit {
   title: string;
-  sideBarConfig: Array<ISideBarConfig>;
+  sideBarConfig: Array<ISideBar>;
 
   constructor(private ActivatedRoute: ActivatedRoute) {
   }
