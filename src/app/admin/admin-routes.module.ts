@@ -7,6 +7,7 @@ import { RoleListComponent } from '../admin/roleList/roleList.component';
 import { ModuleListComponent } from '../admin/moduleList/moduleList.component';
 import { AdminUserComponent } from '../admin/adminUser/adminUser.component';
 import { ClientUserComponent } from '../admin/clientUser/clientUser.component';
+import { ServiceToServiceComponent } from '../service-to-service/service-to-service.component';
 
 const routes: Routes = [{
     path: 'dashboard',
@@ -20,14 +21,16 @@ const routes: Routes = [{
     }, {
         path: 'clientUser',
         component: ClientUserComponent
-    }
-]
+    }]
 }, {
     path: 'roleList',
     component: RoleListComponent
 }, {
     path: 'moduleList',
     component: ModuleListComponent
+}, {
+    path: 'service',
+    component: ServiceToServiceComponent
 }, {
     path: '',
     component: DashboardComponent

@@ -30,6 +30,7 @@ import { ClientUserComponent } from './admin/clientUser/clientUser.component';
 import { AdminRoutesModule } from './admin/admin-routes.module';
 import { ListComponent } from './list/list.component';
 import { ChooseComponent } from './choose/choose.component';
+import { ServiceToServiceComponent } from './service-to-service/service-to-service.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { ChooseComponent } from './choose/choose.component';
     AdminUserComponent,
     ClientUserComponent,
     ListComponent,
-    ChooseComponent
+    ChooseComponent,
+    ServiceToServiceComponent
 ],
   imports: [
     BrowserModule,
